@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.counter {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.todo {
+  width: 50%;
+  margin: 50px auto;
+  /* justify-content: center; */
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 10px 0;
+  outline: auto;
+}
+
+.todo input[type=text] {
+  width: 80%;
+  height: 20px;
+  margin: 10px 10px 10px 0;
+  padding: 5px;
+  border: none;
+  outline: 1px solid gainsboro;
+  font-size: 20px;
+
+}
+
+.todo input[type=button] {
+  height: 36px;
+  font-size: 20px;
+  background-color: darkturquoise;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  padding: 0 20px;
+}
+
+.todo input[type=button]:hover {
+  cursor: pointer;
+  background-color: cadetblue;
+}
+
+.main {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.main li {
+  font-size: 14px;
+  font-style: italic;
+  padding: 10px 0;
+}
+
+.main li {
+  color: red
+}
+
+.userDetails , .details{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: start;
+}
+
+.userDetails>div {
+  background-color: #ddd;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 7px;
+  width: 25%;
+}
+
+.userDetails>div:hover{
+  opacity: 0.7;
+}
+
+li {
+  list-style: none;
+}
+
+.userDetails ul>li {
+  background-color: azure;
+  margin: 10px;
+  border-radius: 5px;
+  font-style: italic;
+  padding: 5px;
+}
+.details ul{
+  width: 50%;
+}
+
+.details ul>div {
+  display: flex;
+  background-color: bisque;
+  margin: 10px;
+  border-radius: 5px;
+  font-style: italic;
+  padding: 10px ;
+justify-content: space-between;
+}
+.details div>div{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.details div>div:hover{
+  background-color:tan;
+  color: white;
+}
+.userDetails a {
+  text-decoration: none;
+  color: black
+}
